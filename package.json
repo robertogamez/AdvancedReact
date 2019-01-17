@@ -19,6 +19,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "7",
     "babel-polyfill": "^6.26.0",
