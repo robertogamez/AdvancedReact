@@ -5,7 +5,7 @@
   "author": "Roberto G.",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node lib/server.js",
+    "start": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -d",
     "test": "jest --watch"
   },

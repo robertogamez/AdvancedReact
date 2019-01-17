@@ -1,10 +1,16 @@
 var path = require('path');
 
 module.exports = {
+    resolve: {
+        modules: [
+            path.resolve('./lib'),
+            path.resolve('./node_modules')
+        ]
+    },
     entry: {
         index: [
             'babel-polyfill',
-            './lib/components/Index.js'
+            './lib/renderers/dom.js'
         ]
     },
     output: {
