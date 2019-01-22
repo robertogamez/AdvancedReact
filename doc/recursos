@@ -9,3 +9,6 @@ https://codeburst.io/yet-another-beginners-guide-to-setting-up-a-react-project-p
 
 --Usar babel con webpack
 http://ccoenraets.github.io/es6-tutorial-data/babel-webpack/
+
+--Enzyme con jest
+https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest
