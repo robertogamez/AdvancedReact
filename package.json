@@ -7,7 +7,9 @@
   "scripts": {
     "start": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -d",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "verify-tests": "jest --coverage",
+    "build-webpack": "webpack -p"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

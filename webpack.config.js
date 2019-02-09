@@ -7,15 +7,27 @@ module.exports = {
             path.resolve('./node_modules')
         ]
     },
+    // entry: {
+    //     index: [
+    //         'babel-polyfill',
+    //         './lib/renderers/dom.js'
+    //     ]
+    // },
     entry: {
-        index: [
+        vendor: [
             'babel-polyfill',
-            './lib/renderers/dom.js'
-        ]
+            'react',
+            'react-dom',
+            'prop-types',
+            'axios',
+            'lodash.debounce',
+            'lodash.pickby'
+        ],
+        app: ['./lib/renderers/dom.js']
     },
     output: {
         path: path.resolve(__dirname, 'public'),
-        filename: 'bundle.js'
+        filename: '[name].js'
     },
     module: {
         rules: [
