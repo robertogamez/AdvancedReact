@@ -9,7 +9,8 @@
     "webpack": "webpack -d",
     "test": "jest --watch",
     "verify-tests": "jest --coverage",
-    "build-webpack": "webpack -p"
+    "build-webpack": "webpack -p",
+    "build-node": "babel lib -d build --copy-files"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

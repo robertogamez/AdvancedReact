@@ -13,6 +13,7 @@
 public/vendor.js
 public/app.js
 coverage/
+build/
 
 # Build results
 [Dd]ebug/
